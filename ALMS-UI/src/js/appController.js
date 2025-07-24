@@ -35,6 +35,7 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojrespon
         { path: 'dashboard', detail: { label: 'Dashboard', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'dash1', detail: { label: 'VAR Analysis', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'dash2', detail: { label: 'Duration Gap', iconClass: 'oj-ux-ico-bar-chart' } },
+        { path: 'nimDashBoard', detail: { label: 'NIM DashBoard', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'liquidityChart', detail: { label: 'Liquidity Chart', iconClass: 'oj-ux-ico-bar-chart' } },
         { path: 'incidents', detail: { label: 'Incidents', iconClass: 'oj-ux-ico-fire' } },
         { path: 'customers', detail: { label: 'Customers', iconClass: 'oj-ux-ico-contact-group' } },
@@ -56,9 +57,9 @@ define(['knockout', 'ojs/ojcontext', 'ojs/ojmodule-element-utils', 'ojs/ojrespon
 
       // Header
       // Application Name used in Branding Area
-      this.appName = ko.observable("App Name");
+      this.appName = ko.observable("Asset Liability Management System");
       // User Info used in Global Navigation area
-      this.userLogin = ko.observable("john.hancock@oracle.com");
+      this.userLogin = ko.observable("nassj@oracle.com");
 
       // Footer
       this.footerLinks = [

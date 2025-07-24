@@ -18,4 +18,5 @@ public interface NimAnalysisController {
         @ApiResponse(description = "Failed to calculate NIM", responseCode = "400")
     })
     public ResponseEntity<?> getNim(LocalDate startDate, LocalDate endDate);
+    public ResponseEntity<?> getNimByYear();
 }
